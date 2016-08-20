@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="80" tileheight="80">
+ <properties>
+  <property name="background_music" value="happy_0"/>
+ </properties>
+ <tileset firstgid="1" name="walls80" tilewidth="80" tileheight="80">
+  <image source="walls80.png" width="320" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="SmallWorld-all" tilewidth="80" tileheight="80">
+  <image source="SmallWorld-all.png" width="640" height="560"/>
+ </tileset>
+ <tileset firstgid="73" name="TiledObjects" tilewidth="80" tileheight="80">
+  <image source="TiledObjects.png" width="800" height="800"/>
+ </tileset>
+ <layer name="bg" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEoUvw/eOux1Bw1VRVVdXXD1O/TvIAEAAA
+  </data>
+ </layer>
+ <layer name="adds" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TwQkAIAwEwfSgvtT+2zRFCBGcgX3f6yK4rWU9G0X7M1vZLtqHn/k/AACvOmWYFoAAEAAA
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VSwqAMAxEQ+9/aFeCFMxnSDpdzINCCerLaFuXmS3CePnOkRrTj3JTfgbM/J1+lN1/et8h+TvJ+JFMXft/GuX3/Zls2bo5c88f9d1Vl1/+yVHpq3oNivzx86fP5Yw/+3/x7q2uzb8+K2u5893JH58l6LcVfB5rYGynABAAAA==
+  </data>
+ </layer>
+ <layer name="wallfront" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1VQQrDMAzzIYcectj/Xzt2CBhPSiw32RhMYAjClWrXdZqZNRCd8JlAz0ZuoNs7GuBQ3nUjVroZ/ypW/gpXjW+ik/OMexBOjYw/mj/kX0Wc/xiX1WrL1r+av521Inh95q/WVHnmBfStT8P7o13zyfpPf2uERs6eQ7UxftYLA2ffc9R/xM141sMMz/aaosdmmPFVf6an9svrKP67+u912Pwpemp+/P/jDKv7f5avvJeaU0Vm5570Z3PkcfJeGLtshsw73sHKX7lfkPZqZrP9HXnKLO/s3dBS/HfO7tBSdvxu/3hnerDd88dv4AlY14UOABAAAA==
+  </data>
+ </layer>
+ <layer name="wallShadow" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TMQoAIAwD+wv//1NxlYA0OjQ1B4Lo0mvTCF0GeSqB6sm8qfvf0MUd1cjOVtF/h3Hq1IPf/RfIjbmjP2Oq8GqnlXfd1APlJ5MvZ7MHp3l5ttpMSsxrCQAQAAA=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object x="1120" y="1520" width="80" height="80">
+   <properties>
+    <property name="element" value="2"/>
+    <property name="sequence" value="1"/>
+   </properties>
+  </object>
+  <object x="1120" y="1360" width="80" height="80">
+   <properties>
+    <property name="element" value="1"/>
+    <property name="sequence" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="ObjectTiles" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W2w7CIAyGeb2FXXkgGr1HL7zwzifxeZVkS2oD5C8UmYtf0pQwtr8d5WBMf/zk7dvupG+2S2N9C45z5jOWbYHWUyEOTY6RGIaIxXItyR+F69P4WvAA9C3Tl+afm/sl4En70PDbuWe5cSm0amIs1A9cwXG5GnAV+tr4xh4lNbdDop+vyR1pO6F2jNPk0ZpD8rXMcyTn31kwlurzvW0DvLdP9NOcR1Dfmz7nH4+DnwO1IPl/E3SfCsz3r16sTT/UgqTGY/ewUqNr/FafyuJA9qtfRbInrfk//NHnBUplnT8AEAAA
+  </data>
+ </layer>
+</map>

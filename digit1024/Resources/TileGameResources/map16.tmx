@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="50" tilewidth="80" tileheight="80">
+ <properties>
+  <property name="background_music" value="Show Your Moves"/>
+ </properties>
+ <tileset firstgid="1" name="walls80" tilewidth="80" tileheight="80">
+  <image source="walls80.png" width="320" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="SmallWorld-all" tilewidth="80" tileheight="80">
+  <image source="SmallWorld-all.png" width="640" height="560"/>
+ </tileset>
+ <tileset firstgid="73" name="TiledObjects" tilewidth="80" tileheight="80">
+  <image source="TiledObjects.png" width="800" height="800"/>
+ </tileset>
+ <layer name="backgroud" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDoVNQ/3LnYi9IWDVVVdWHB9g722WADAAA
+  </data>
+ </layer>
+ <layer name="backgroundEffects" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2U5wrCMBRG8wqOH26sA9ziwq1xv/8b+QkKl3iTJhEX5MCBJu13G5rbCPFMFdZgnbnH0VPGbdiBXcv8gxRMwxEcw4ljPg8LsOiYk47Pvwv6HeUH32va7yZsxeRN+z2Aw5i8737/K+r/soQruPasd4BHePLMS8+ciQRMvpDPwpxntg8jWNHc/+b3bsAMM7+BW2Z+DhcWdc/wwszv4J6MS8wzklxza7sxhbP7dST0PVPWLdAArW2DzZlEUXvR5kyimHrRppfUXqTrN/WS1NRzXX8gEAj8Ile2GwLWgAwAAA==
+  </data>
+ </layer>
+ <layer name="walls" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1UWwrAMAjT3f/Q+xoMMZq0pV8GxphrjM+6mfnm88HDm7FH2w5/Vx+dq+L6+6i+s1yZ/FEsp/ldT1X9rJaoPhkf6SN/6ix1+sg3y0dY5aPeMPVnzqn6Ss2R/SZ/df8Yn+o92cWUQZ0zlh/tj+gT8VH+2f9VdHta7a+qf4ofbaj/zFyo88fM5GAwGNzCC0Sgml2ADAAA
+  </data>
+ </layer>
+ <layer name="walls_faces" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1VuwrEMAzzkMFLIf//tbecwQjJUTm4KYLSxolfsuPuiNjms4S8sOFdWN93gny3PZR3pJAvsKn81xp9JZytfdTHOLrdzkHCeuIqhAzjZPyc9FN8M/2e81RTpc/sV5+gPtp34sf8+/rEL9pitpmO6v+A89g/Qc5Me88LfZajih/5n7hh/cVqqmqnzjKwWr7hj9XSmR8lY/fPjV/5cWekG5O6r26eClNNT34U2Pzus5rl/8D+NJ8c/9M9ne7vVBfl6xd9xusicvUPYjz1/03nU/Hi9OTFxcXFv/ABYD+nRYAMAAA=
+  </data>
+ </layer>
+ <layer name="foregroudn" width="16" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PMQ5AQBBA0b0DKlSoULH3v5p/gUnGUv6X/G4mmSlFkY56Ghr3R5po/u0iLbTS1ri/00Fn4/5FN9XEbPbWaC57azSXvfXNT5IkSV89efqxy4AMAAA=
+  </data>
+ </layer>
+ <layer name="top" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UUQrAIAxDcwvvf1MZ7EMknVaX1UEfhEJ/GkIoAJRb6ObMvoXtTkDtq8/G2p+az8XbHp/6Mbrh9aDItxBF4/FhdXLnNpt/QuWZ/crV7ig9fsEoA0V/rDuqv9DOaFjOHiVJkkRRAeg4V/CADAAA
+  </data>
+ </layer>
+ <layer name="down" width="16" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2USwoAIAhEZ9/979s2BrWvYDAPQrJQmTQAaLTg7C3/D2TXytp4/sqava7RisO99IoMfXkmKrzdTh1eT97ktmx0txpZdUV/50x/Pquq3QmRBlmzuuKfxRrtai4hhBB7dIfXWvyADAAA
+  </data>
+ </layer>
+ <layer name="left" width="16" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UwQoAIAhDu/r/P9w90K2lQuCO2ttEQltvMqJmQf0H3vM5eS838kH5UT+TR7Nm5Cv7j3bawSPvCh5xNzyaRc1H/4b16OLV/WXxnuftzWDeVvCsJ+v92kdibzjbV/47mgfdVoUfjUajX7QB0tB7HYAMAAA=
+  </data>
+ </layer>
+ <layer name="right" width="16" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VywkAIAxDHcD95/WiF2lrUuoPGvBg9SUVQUvxq/Yh1aW5VP+B13wsX5Rf5Vvrr/Lznsh8ZI3htf61nhDe8jzBSx5aDnp+Nh/t6TbvZXfx6H1G5bP3H8kPj0ix7xH7dqN1L8/+KalUKvWrGmAj67aADAAA
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object x="320" y="1600" width="80" height="80">
+   <properties>
+    <property name="element" value="1"/>
+    <property name="sequence" value="1"/>
+   </properties>
+  </object>
+  <object x="320" y="80" width="80" height="80">
+   <properties>
+    <property name="element" value="1"/>
+    <property name="sequence" value="2"/>
+   </properties>
+  </object>
+  <object x="800" y="80" width="80" height="80">
+   <properties>
+    <property name="element" value="1"/>
+    <property name="sequence" value="1"/>
+   </properties>
+  </object>
+  <object x="1040" y="80" width="80" height="80">
+   <properties>
+    <property name="element" value="2"/>
+    <property name="sequence" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="ObjectTiles" width="16" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UQQuEIBCF+3ubBVFtdO5SHTvt318Fhceg05gWBH4wzJDzejJpVZXOquOwdRvocc8XWy9Ebxig3mxI/X21lFT93XwgntLjHK76K6LnvDC4dQl4jq7oQ3D6SUeT+P67kd4nw6ijtnk86VWe2mikc1eQqd7lMz1qY/UraN1/Kmb/qVAfeh84/znjPnZmbYDazKrL6Cud7y+jpw88Q4pr9PAFXQP6Hnqk3zTkLdUXCoXCG/gDnU8K5YAMAAA=
+  </data>
+ </layer>
+</map>

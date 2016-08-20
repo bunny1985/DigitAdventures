@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>17b52f90-9b33-4188-8a0e-808582bbabbc</UniqueIdentifier>
+      <Extensions>ico;bmp;dlg;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;resw;resjson</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{75a4d4c5-4978-4bf9-a391-fbbd7b2d35b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{15bf0205-7c44-4822-955b-18839a0e1c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sprites">
+      <UniqueIdentifier>{37f74af5-95f6-4885-8c84-86364c0c24a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Tiles">
+      <UniqueIdentifier>{fe91fb93-adee-41e4-aa3e-b8b71bc76914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="digit1024.cpp" />
+    <ClCompile Include="..\Classes\AppMacros.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCShake.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DialogLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLevelScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameUtils.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NextLevelLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ObjectsFactory.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionsLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelecLevelLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Resources.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\TileMapResources.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Order.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\AbstractStateObserver.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\FallingRock.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\GameSprite.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Robbo.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Bulets\BasicBullet.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Bulets\LaserBullet.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Bulets\LaserMark.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Bulets\AbstractBullet.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\AbstractEnemy.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\Cannon.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\FollowingEnemy.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\FourDirectionsEnemy.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\Lava.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\Magnet.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\RANDOMDIRECTIONeNEMT.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\StaticLaserCannon.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\StaticSimpleCannon.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Enemies\TwoDirectionsEnemy.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Bomb.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Box.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Collectable.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Dialog.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Doors.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\EnterableGround.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\FallingBomb.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\FallingStar.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Ground.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\IceBlock.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\QuestionMark.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Rock.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Starship.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprites\Objects\Teleport.cpp">
+      <Filter>Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\RESPATH.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="digit1024.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCShake.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DialogLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLevelScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUtils.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NextLevelLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ObjectsFactory.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionsLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelecLevelLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Order.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Resources.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\TileMapResources.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Enums.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\AbstractStateObserver.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\FallingRock.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\GameSprite.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Robbo.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Bulets\AbstractBullet.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Bulets\BasicBullet.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Bulets\LaserBullet.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Bulets\LaserMark.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\Abstractenemy.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\Cannon.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\FollowingEnemy.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\FourDirectionsEnemy.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\Lava.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\Magnet.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\RANDOMDIRECTIONeNEMT.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\StaticLaserCannon.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\StaticSimpleCannon.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Enemies\TwoDirectionsEnemy.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Bomb.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Box.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Collectable.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Dialog.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Doors.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\EnterableGround.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\FallingBomb.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\FallingStar.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\FrozenItem.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Ground.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\IceBlock.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\QuestionMark.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Rock.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Starship.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprites\Objects\Teleport.h">
+      <Filter>Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\RESPATH.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\files.list.txt">
+      <Filter>Classes</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\ApplicationIcon.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <Filter>Assets\Tiles</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
